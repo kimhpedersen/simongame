@@ -1,1 +1,1 @@
-# simongame
+# simongame Complete PCB schamatic and MPLab project in C code for a simple Simon says Game

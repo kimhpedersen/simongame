@@ -1,0 +1,131 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18345 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\khpe\MPLABXProjects\Simon.X\main.c
+[v _displayColor displayColor `(v  1 e 1 0 ]
+"42
+[v _addToColorSequence addToColorSequence `(v  1 e 1 0 ]
+"50
+[v _displayColorSequence displayColorSequence `(v  1 e 1 0 ]
+"62
+[v _waitForUserColor waitForUserColor `(uc  1 e 1 0 ]
+"84
+[v _waitForUserSequence waitForUserSequence `(v  1 e 1 0 ]
+"104
+[v _main main `(i  1 e 2 0 ]
+"16 C:\Users\khpe\MPLABXProjects\Simon.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"25 C:\Users\khpe\MPLABXProjects\Simon.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+"37
+[v _powerOnSelfTest powerOnSelfTest `(v  1 e 1 0 ]
+"23 C:\Users\khpe\MPLABXProjects\Simon.X/user.h
+[v _colorSequence colorSequence `[60]uc  1 e 60 0 ]
+"24
+[v _seqenceLength seqenceLength `uc  1 e 1 0 ]
+"25
+[v _r r `uc  1 e 1 0 ]
+[s S22 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"364 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16F1xxxx_DFP/1.4.119/xc8\pic\include\proc\pic16f18345.h
+[u S27 . 1 `S22 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES27  1 e 1 @11 ]
+"473
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"1550
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1595
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1634
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"2932
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2977
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3016
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3944
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3994
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4033
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"19723
+[v _ADIE ADIE `VEb  1 e 0 @1166 ]
+"19735
+[v _ADON ADON `VEb  1 e 0 @1256 ]
+"22468
+[v _RB4 RB4 `VEb  1 e 0 @108 ]
+"22486
+[v _RB5 RB5 `VEb  1 e 0 @109 ]
+"22504
+[v _RB6 RB6 `VEb  1 e 0 @110 ]
+"22522
+[v _RB7 RB7 `VEb  1 e 0 @111 ]
+"104 C:\Users\khpe\MPLABXProjects\Simon.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"114
+} 0
+"84
+[v _waitForUserSequence waitForUserSequence `(v  1 e 1 0 ]
+{
+"87
+[v waitForUserSequence@userColor userColor `uc  1 a 1 2 ]
+"85
+[v waitForUserSequence@position position `uc  1 a 1 3 ]
+"99
+} 0
+"62
+[v _waitForUserColor waitForUserColor `(uc  1 e 1 0 ]
+{
+"79
+} 0
+"50
+[v _displayColorSequence displayColorSequence `(v  1 e 1 0 ]
+{
+"51
+[v displayColorSequence@position position `uc  1 a 1 2 ]
+"56
+} 0
+"22
+[v _displayColor displayColor `(v  1 e 1 0 ]
+{
+[v displayColor@c c `uc  1 a 1 wreg ]
+[v displayColor@c c `uc  1 a 1 wreg ]
+[v displayColor@c c `uc  1 a 1 0 ]
+"37
+} 0
+"42
+[v _addToColorSequence addToColorSequence `(v  1 e 1 0 ]
+{
+"45
+} 0
+"25 C:\Users\khpe\MPLABXProjects\Simon.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37
+[v _powerOnSelfTest powerOnSelfTest `(v  1 e 1 0 ]
+{
+"39
+} 0
+"16 C:\Users\khpe\MPLABXProjects\Simon.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"25
+} 0
